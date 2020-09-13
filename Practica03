@@ -1,0 +1,25 @@
+package com.utn.programacion.laboratorio;
+
+public class Practica03 {
+	
+public static void main(String [] args) {
+	
+	/* Práctica 03:
+Se necesita averiguar el perímetro de un cuadrado, cuyo lado se conoce
+como dato de entrada. */
+	int lado = 0;
+	int perimetro = 0;
+	
+	/* Input */
+	lado = 5;
+	
+	/* Proceso */
+	perimetro = lado * 4;
+	
+	/*Output*/
+	System.out.println("El perímetro del cuadrado es: " + perimetro);
+	
+
+} // end main
+
+} // end main
