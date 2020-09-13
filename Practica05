@@ -1,0 +1,40 @@
+package com.utn.programacion.laboratorio;
+import java.util.Random;
+
+ /*Práctica 05:
+• Desarrollar un algoritmo que declare dos variables enteras, le
+asigne valores arbitrarios y luego muestre su suma, diferencia y
+producto. */
+
+public class Practica05version2 {
+	
+	public static void main(String[] args) {
+		
+		/* Declaración e inicialización de las variables */
+		int valor1 = 0;
+		int valor2 = 0;
+		int suma = 0;
+		int diferencia = 0;
+		int producto = 0;
+		
+		Random random = new Random();
+		
+		 /* Input */
+		valor1 = random.nextInt(26) + 1;
+		valor2 = random.nextInt(26) + 1;
+		
+		/* Process */
+		suma = valor1 + valor2;
+		diferencia = valor1 - valor2;
+		producto = valor1 * valor2;
+		
+		/*Output*/
+		System.out.println("El resultado de la suma de los valores 1 y 2 es: " + suma);
+		
+		System.out.println("El resultado de la diferencis de los valores 1 y 2 es: " + diferencia);
+		
+		System.out.println("El resultado del producto de los valores 1 y 2 es: " + producto);
+		
+	} // end main
+
+} // end  Practica05version2
